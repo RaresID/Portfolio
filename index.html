@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <!-- 
+        - meta tags
+    -->
+    
+    <title>Devfolio - A frontend developer Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a personal portfolio made by raresdproductions">
+
+<!-- 
+    - favicon
+-->
+
+<link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+
+
+<!-- 
+    - google font link
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&family=Open+Sans:wght@400;500&display=swap"
+    rel="stylesheet">
+    
+    <!-- 
+        - material icon link 
+    -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+
+    <!-- 
+        - custom css link
+    -->
+    
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    <!--
+        - #TOP BAR
+    -->
+
+    <header class="topbar">
+
+        <a href="#" class="logo">
+            <img src="./assets/images/Logo_dark.png" alt="Devfolio" width="145" height="32" class="dark">
+            <img src="./assets/images/Logo_light.png" alt="Devfolio" width="145" height="32" class="light">
+        </a>
+
+        <button class="icon-btn theme-btn" data-theme-btn>
+            <span class="material-symbols-outlined dark" aria-hidden="true"> dark_mode </span>
+            <span class="material-symbols-outlined light" aria-hidden="true"> light_mode </span>
+
+            <div class="state-layer"></div>
+        </button>
+
+    </header>
+
+
+    <main>
+        <article>
+
+            <!--
+                - HERO 
+            -->
+
+            <section class="section hero">
+                <div class="container">
+
+                    <figure class="hero-banner img-holder" style="--width: 240; --height:240;">
+                        <img src="./assets/images/profile.png"  width="240" height="240" alt="Rares Deac"    class="img-cover">
+                    </figure>
+
+                    <div class="hero-content">
+
+                        <div class="label-large section-subtitle">Frontend Developer</div>
+
+                        <h1 class="display-small">Rares Deac</h1>
+
+                        <p class="body-large section-text">Apasionado por como funcionan las máquinas desde pequeño</p>
+
+                        <div class="btn-wrapper">
+                            <a href="mailto:contact@raresdproductions.com" class="chip">
+                                <span class="material-symbols-outlined" aria-hidden="true"> mail </span>
+
+                                <span class="label-large">contact@raresdproductions.com</span>
+
+                                <div class="state-layer"></div>
+                            </a>
+
+                            <a href="tel:+34643696730" class="chip">
+                                <span class="material-symbols-outlined" aria-hidden="true"> call </span>
+
+                                <span class="label-large">+34643696730</span>
+
+                                <div class="state-layer"></div>
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+
+            <!-- 
+                - #MAIN CONTENT
+            -->
+
+            <div class="article">
+
+                <div class="about-card">
+                    
+                    <h2 class="card-title title-medium">Sobre Mí</h2>
+
+                    <p class="body-medium card-text" style="text-align: center;">Entusiasta dedicado con gran interés en todo lo relacionado con las tecnologías de la información. Desde siempre, me he sentido cautivado por la tecnología,  y desde hace un tiempo por el mundo de la programación.
+
+                        </p>
+
+                    <ul class="about-list">
+
+                        <li class="list-item">
+                            <span class="material-symbols-outlined" aria-hidden="true"> location_on </span>
+
+                            <span class="label-medium">Torrevieja, Spain</span>
+                        </li>
+
+                        <li class="list-item">
+                            <span class="material-symbols-outlined" aria-hidden="true"> work </span>
+
+                            <span class="label-medium">Remoto</span>
+                        </li>
+
+                        <li class="list-item">
+                            <span class="material-symbols-outlined" aria-hidden="true"> captive_portal </span>
+
+                            <a href="https://raresdproductions.com" class="label-medium">raresdproductions</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                    
+                    <!--
+                        - #PRIMARY TABS
+                    -->
+
+                    <div class="primary-tabs">
+
+                        <button class="tab-btn" data-tab-btn="project">
+                            <span class="tab-text title-small">Proyectos</span>
+
+                            <div class="state-layer"></div>
+                        </button>
+
+                        <button class="tab-btn" data-tab-btn="resume">
+                            <span class="tab-text title-small">Certificados</span>
+
+                            <div class="state-layer"></div>
+                        </button>
+
+                        <button class="tab-btn" data-tab-btn="contact">
+                            <span class="tab-text title-small">Contacto</span>
+
+                            <div class="state-layer"></div>
+                        </button>
+
+                    </div>
+
+
+
+                    <!--
+                        - #PROJECT
+                    -->
+
+                    <section class="section tab-content" data-tab-content="project">
+                        <div class="container">
+                            
+                            <div class="project-list">
+
+                                <div class="card">
+
+                                    <figure class="card-banner img-holder" style="--width: 334; --height: 180;">
+                                        <img src="./assets/images/inmobiliaria.jpg" alt="Wealthome - Real Estate Web " width="334" height="180" class="img-cover">
+                                    </figure>
+
+                                    <div class="card-content">
+
+                                        <span class="label-large card-subtitle">Web Design</span>
+
+                                        <h3 class="title-large card-title">Inmobiliaria</h3>
+
+                                    </div>
+
+                                        <a href="/Inmobiliaria" target="_blank" class="state-layer"></a>
+
+                                </div>
+
+                                <div class="card">
+
+                                    <figure class="card-banner img-holder" style="--width: 334; --height: 180;">
+                                        <img src="./assets/images/restaurant.jpg" alt="Restaurant" width="334" height="180" class="img-cover">
+                                    </figure>
+
+                                    <div class="card-content">
+
+                                        <span class="label-large card-subtitle">Web Design</span>
+
+                                        <h3 class="title-large card-title">Restaurante</h3>
+
+                                    </div>
+
+                                        <a href="/Restaurante" target="_blank" class="state-layer"></a>
+
+                                </div>
+
+                                <div class="card">
+
+                                    <figure class="card-banner img-holder" style="--width: 334; --height: 180;">
+                                        <img src="./assets/images/landing.jpg" alt="Landing Page" width="334" height="180" class="img-cover">
+                                    </figure>
+
+                                    <div class="card-content">
+                                        <span class="label-large card-subtitle">Web Design</span>
+
+                                        <h3 class="title-large card-title">Landing Page</h3>
+                                    </div>
+
+                                        <a href="/Landing-Page" target="_blank" class="state-layer"></a>
+
+                                </div>
+
+                                <div class="card">
+
+                                    <figure class="card-banner img-holder" style="--width: 334; --height: 180;">
+                                        <img src="./assets/images/piedra.png" alt="Game" width="334" height="180" class="img-cover">
+                                    </figure>
+
+                                    <div class="card-content">
+
+                                        <span class="label-large card-subtitle">Game</span>
+
+                                        <h3 class="title-large card-title">Rock-Paper-Scissors</h3>
+
+                                    </div>
+
+                                        <a href="/Piedra-papel-tijera" target="_blank" class="state-layer"></a>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+                    </section>
+
+
+                    <!--
+                        - #RESUME
+                    -->
+
+                    <section class="section tab-content resume-tab" data-tab-content="resume">
+                        <div class="container">
+
+                            <!-- <h2 class="section-title title-small">Experience</h2>
+
+                            <ul class="list">
+
+                                <li class="resume-item">
+                                    <div class="resume-card">
+
+                                        <p class="body-large">Software Engineer, Universidad Miguel Hernández</p>
+
+                                        <span class="label-medium card-subtitle">2016 - 2018</span>
+
+                                        <span class="body-medium card-text">grado en sistemas y tecnologías de la información </span>
+
+                                    </div>
+                                </li>
+
+                                <li class="resume-item">
+                                    <div class="resume-card">
+
+                                        <p class="body-large">Technician in Microcomputer Systems and Networks, IES Thiar</p>
+
+                                        <span class="label-medium card-subtitle">2011 - 2013</span>
+
+                                        <span class="body-medium card-text">PF - Medium Grade </span>
+
+                                    </div>
+                                </li>
+
+                            </ul> -->
+
+                            <h2 class="section-title title-small">Educación</h2>
+
+                            <ul class="list">
+
+                                <li class="resume-item">
+                                    <div class="resume-card">
+
+                                        <p class="body-large">
+                                            Tecnico en Sistemas Microinformáticos y Redes, IES Thiar
+                                        </p>
+
+                                        <span class="label-medium card-subtitle">2011-2013</span>
+
+                                    </div>
+                                </li>
+
+                                <li class="resume-item">
+                                    <div class="resume-card">
+
+                                        <p class="body-large">
+                                            Ingenieria informática en Tecnologías de la información, Universidad Miguel Hernández
+                                        </p>
+                                        <a href="./assets/images/nota-umh.png"><img src="./assets/images/nota-umh.png" alt="University-qualifications" class="certificate-style"></a>
+
+                                        <span class="label-medium card-subtitle">2016 - 2018</span>
+
+                                    </div>
+                                </li>
+
+                                <li class="resume-item">
+                                    <div class="resume-card">
+
+                                        <p class="body-large">
+                                            Responsive Web Design Certification (FreeCodeCamp Certification)
+                                        </p>
+
+                                        <a href="./assets/images/certificado-web-design.png"><img src="./assets/images/certificado-web-design.png" alt="web-design-certificate"  class="certificate-style"></a>
+
+                                        <span class="label-medium card-subtitle verification-link"><a href="https://www.freecodecamp.org/certification/fcc5c601236-e555-40f8-9032-c3f3d2dbdc52/responsive-web-design" alt="verification-link" target="_blank">Verify</a></span>
+
+                                        <span class="label-medium card-subtitle">2024</span>
+
+                                    </div>
+                                </li>
+
+                                <li class="resume-item">
+                                    <div class="resume-card">
+
+                                        <p class="body-large">
+                                            Introduction to HTML Certification (Sololearn Certification)
+                                        </p>
+                                        <a href="./assets/images/sololearn-html.png"><img src="./assets/images/sololearn-html.png" alt="html-certificate" class="certificate-style"></a>
+
+                                        <span class="label-medium card-subtitle"><a href="https://api2.sololearn.com/v2/certificates/CC-T41BCDJJ/image/png" alt="verification-link" target="_blank">Verify</a></span>
+
+                                        <span class="label-medium card-subtitle">2024</span>
+
+                                    </div>
+                                </li>
+
+                                <li class="resume-item">
+                                    <div class="resume-card">
+
+                                        <p class="body-large">
+                                            Introduction to CSS Certification (Sololearn Certification)
+                                        </p>
+                                        <a href="./assets/images/css-sololearn.png"><img src="./assets/images/css-sololearn.png" alt="css-certificate" class="certificate-style"></a>
+                                        
+                                        <span class="label-medium card-subtitle"><a href="https://api2.sololearn.com/v2/certificates/CC-MUEKGECT/image/png" alt="verification-link" target="_blank">Verify</a></span>
+
+                                        <span class="label-medium card-subtitle">2024</span>
+
+                                    </div>
+                                </li>
+
+                                <li class="resume-item">
+                                    <div class="resume-card">
+
+                                        <p class="body-large">
+                                            Coding Foundations (Sololearn Certification)
+                                        </p>
+                                        <a href="./assets/images/Coding-foundations.png"><img src="./assets/images/Coding-foundations.png" alt="Coding-foundations-certificate" class="certificate-style"></a>
+                                        
+                                        <span class="label-medium card-subtitle"><a href="https://api2.sololearn.com/v2/certificates/CC-AJUF9WQZ/image/png" alt="verification-link" target="_blank">Verify</a></span>
+
+                                        <span class="label-medium card-subtitle">2024</span>
+
+                                    </div>
+                                </li>
+
+                                <li class="resume-item">
+                                    <div class="resume-card">
+
+                                        <p class="body-large">
+                                            Introduction to Javascript (Sololearn Certification)
+                                        </p>
+                                        <a href="./assets/images/javascript-introduction.png"><img src="./assets/images/javascript-introduction.png" alt="Introduction-to-Javascript-certificate" class="certificate-style"></a>
+                                        
+                                        <span class="label-medium card-subtitle"><a href="https://api2.sololearn.com/v2/certificates/CC-X96K79I7/image/png" alt="verification-link" target="_blank">Verify</a></span>
+
+                                        <span class="label-medium card-subtitle">2024</span>
+
+                                    </div>
+                                </li>
+
+
+
+                            </ul>
+
+                            <h2 class="section-title title-small">Habilidades y Tecnologías</h2>
+
+                            <ul class="resume-bottom-list">
+
+                                <li class="resume-bottom-item">
+                                    <img src="./assets/images/html5.svg" width="28" height="28" loading="lazy" alt="HTML5" class="icon">
+
+                                    <span class="label-medium">HTML5</span>
+                                </li>
+
+                                <li class="resume-bottom-item">
+                                    <img src="./assets/images/css3.svg" width="28" height="28" loading="lazy" alt="CSS3" class="icon">
+
+                                    <span class="label-medium">CSS3</span>
+                                </li>
+
+                                <li class="resume-bottom-item">
+                                    <img src="./assets/images/javascript.svg" width="28" height="28" loading="lazy" alt="Javascript" class="icon">
+
+                                    <span class="label-medium">Javascript</span>
+                                </li>
+
+                                <li class="resume-bottom-item">
+                                    <img src="./assets/images/VS_code.svg" width="28" height="28" loading="lazy" alt="Vs Code" class="icon">
+
+                                    <span class="label-medium">Vs Code</span>
+                                </li>
+
+                                <!-- <li class="resume-bottom-item">
+                                    <img src="./assets/images/react.js.svg" width="28" height="28" loading="lazy" alt="React.js" class="icon">
+
+                                    <span class="label-medium">React.js</span>
+                                </li>
+
+                                <li class="resume-bottom-item">
+                                    <img src="./assets/images/node.js.svg" width="28" height="28" loading="lazy" alt="Node.js" class="icon">
+
+                                    <span class="label-medium">Node.js</span>
+                                </li>
+
+                                <li class="resume-bottom-item">
+                                    <img src="./assets/images/github.svg" width="28" height="28" loading="lazy" alt="Github" class="icon">
+
+                                    <span class="label-medium">Github</span>
+                                </li>
+
+                                <li class="resume-bottom-item">
+                                    <img src="./assets/images/mongoDB.svg" width="28" height="28" loading="lazy" alt="MongoDB" class="icon">
+
+                                    <span class="label-medium">MongoDB</span>
+                                </li> -->
+                                
+                            </ul>
+
+                        </div>
+                    </section>
+
+
+
+                    <!-- 
+                        - #CONTACT
+                    -->
+
+
+                    <section class="section tab-content contact-tab" data-tab-content="contact">
+                        <div class="container">
+
+                            <div class="contact-info">
+
+                                <h4 class="section-title title-small">Información de Contacto</h4>
+
+                                <ul class="contact-info-list">
+
+                                    <li class="contact-info-item">
+
+                                        <div class="icon-box">
+                                            <span class="material-symbols-outlined" aria-hidden="true"> mail </span>
+                                        </div>
+
+                                        <div class="info-content">
+
+                                            <p class="label-small info-title">Enviame un email</p>
+
+                                            <a href="mailto:contact@raresdproductions.com" class="label-small info-text">contact@raresdproductions.com</a>
+
+                                            
+
+                                        </div>
+
+                                    </li>
+
+                                    <li class="contact-info-item">
+
+                                        <div class="icon-box">
+                                            <span class="material-symbols-outlined" aria-hidden="true"> call </span>
+                                        </div>
+
+                                        <div class="info-content">
+
+                                            <p class="label-small info-title">Contactame</p>
+
+                                            <a href="tel:+34643696730" class="label-small info-text">+34643696730</a>
+
+                                            
+
+                                        </div>
+
+                                    </li>
+
+                                    <li class="contact-info-item">
+
+                                        <div class="icon-box">
+                                            <span class="material-symbols-outlined" aria-hidden="true"> location_on </span>
+                                        </div>
+
+                                        <div class="info-content">
+
+                                            <p class="label-small info-title">Dirección</p>
+
+                                            <a href="#" class="label-small info-text">Torrevieja, Spain</a>
+
+                                            
+
+                                        </div>
+
+                                    </li>
+
+                                </ul>
+
+                                <h4 class="title-small">Redes Sociales</h4>
+
+                                <div class="social-list">
+
+                                    <a href="https://www.linkedin.com/in/iraresdeac/" target="_blank" class="social-item">
+                                        <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 32 32" width="32px" height="32px"><path d="M 16 4 C 13.082495 4 10.165259 4.3463233 7.2539062 5.0371094 C 6.1553894 5.2973641 5.2975503 6.1561175 5.0371094 7.2539062 C 3.6555596 13.078569 3.6554183 18.927109 5.0390625 24.751953 C 5.2984842 25.847289 6.154664 26.703469 7.25 26.962891 C 13.075758 28.345482 18.926195 28.345482 24.751953 26.962891 A 1.0001 1.0001 0 0 0 24.753906 26.960938 C 25.847488 26.700055 26.700242 25.846264 26.960938 24.751953 A 1.0001 1.0001 0 0 0 26.962891 24.75 C 28.345481 18.925272 28.344434 13.078543 26.962891 7.2539062 C 26.702356 6.1562115 25.843883 5.2975503 24.746094 5.0371094 C 21.834741 4.3463233 18.917505 4 16 4 z M 16 5.9980469 C 18.759495 5.9980469 21.519509 6.3262079 24.285156 6.9824219 C 24.637367 7.0659809 24.934019 7.3626325 25.017578 7.7148438 C 26.330034 13.248207 26.329081 18.755792 25.015625 24.289062 C 24.932315 24.638752 24.637481 24.932507 24.289062 25.015625 C 18.75547 26.328576 13.244537 26.328881 7.7109375 25.015625 C 7.3623205 24.933047 7.0669533 24.63968 6.984375 24.291016 A 1.0001 1.0001 0 0 0 6.984375 24.289062 C 5.6700192 18.755954 5.6699716 13.248181 6.9824219 7.7148438 C 7.0659809 7.3626326 7.3613606 7.0661672 7.7148438 6.9824219 A 1.0001 1.0001 0 0 0 7.7167969 6.9824219 C 10.482447 6.3262079 13.240505 5.9980469 16 5.9980469 z M 10.5 10 A 1.5 1.5 0 0 0 10.5 13 A 1.5 1.5 0 0 0 10.5 10 z M 10.5 14 C 10.174 14 9.8474844 14.084859 9.5214844 14.255859 C 9.3804844 14.329859 9.2866719 14.474813 9.2636719 14.632812 C 8.9126719 17.070813 8.9126719 19.929188 9.2636719 22.367188 C 9.2866719 22.525187 9.3804844 22.670141 9.5214844 22.744141 C 10.173484 23.086141 10.826516 23.086141 11.478516 22.744141 C 11.619516 22.670141 11.713328 22.525188 11.736328 22.367188 C 12.087328 19.929187 12.087328 17.070813 11.736328 14.632812 C 11.713328 14.474812 11.619516 14.329859 11.478516 14.255859 C 11.152516 14.084859 10.826 14 10.5 14 z M 15.232422 14.019531 C 15.013797 14.046469 14.781172 14.104031 14.544922 14.207031 C 14.389922 14.274031 14.285719 14.424797 14.261719 14.591797 C 13.912719 17.025797 13.913672 19.935187 14.263672 22.367188 C 14.286672 22.525188 14.380484 22.670141 14.521484 22.744141 C 15.148484 23.072141 16.026344 23.08425 16.652344 22.78125 C 16.837344 22.69225 16.928344 22.472531 16.902344 22.269531 C 16.407344 18.415531 16.880781 17.266625 18.175781 16.890625 C 19.301781 16.562625 20.982234 17.259812 20.115234 22.257812 C 20.079234 22.468812 20.168328 22.697062 20.361328 22.789062 C 20.987328 23.086063 21.862281 23.069281 22.488281 22.738281 C 22.622281 22.667281 22.720141 22.523047 22.744141 22.373047 C 24.321141 12.587047 17.934531 13.272547 16.644531 15.185547 C 16.661531 14.912547 16.639391 14.391672 16.525391 14.263672 C 16.415141 14.139172 15.888297 13.938719 15.232422 14.019531 z"style="fill: var(--on-surface-variant)"/>
+                                            </svg>
+                                            
+                                    </a>
+
+                                    <!-- <a href="https://www.tiktok.com/@rares.deac?irclickid=23H10NWd7xyPWNIXqSXj8x-BUkHVhWwe5z3C1M0&irgwc=1&attr_source=impact&attr_medium=affiliate-ad&attr_ad_id=1424839&attr_adgroup_id=1310690&ad_group_name=Admitad%20-%201310690" target="_blank" class="social-item">
+                                        <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="28px" height="28px"><path d="M 9 4 C 6.2495759 4 4 6.2495759 4 9 L 4 41 C 4 43.750424 6.2495759 46 9 46 L 41 46 C 43.750424 46 46 43.750424 46 41 L 46 9 C 46 6.2495759 43.750424 4 41 4 L 9 4 z M 9 6 L 41 6 C 42.671576 6 44 7.3284241 44 9 L 44 41 C 44 42.671576 42.671576 44 41 44 L 9 44 C 7.3284241 44 6 42.671576 6 41 L 6 9 C 6 7.3284241 7.3284241 6 9 6 z M 26.042969 10 A 1.0001 1.0001 0 0 0 25.042969 10.998047 C 25.042969 10.998047 25.031984 15.873262 25.021484 20.759766 C 25.016184 23.203017 25.009799 25.64879 25.005859 27.490234 C 25.001922 29.331679 25 30.496833 25 30.59375 C 25 32.409009 23.351421 33.892578 21.472656 33.892578 C 19.608867 33.892578 18.121094 32.402853 18.121094 30.539062 C 18.121094 28.675273 19.608867 27.1875 21.472656 27.1875 C 21.535796 27.1875 21.663054 27.208245 21.880859 27.234375 A 1.0001 1.0001 0 0 0 23 26.240234 L 23 22.039062 A 1.0001 1.0001 0 0 0 22.0625 21.041016 C 21.906673 21.031216 21.710581 21.011719 21.472656 21.011719 C 16.223131 21.011719 11.945313 25.289537 11.945312 30.539062 C 11.945312 35.788589 16.223131 40.066406 21.472656 40.066406 C 26.72204 40.066409 31 35.788588 31 30.539062 L 31 21.490234 C 32.454611 22.653646 34.267517 23.390625 36.269531 23.390625 C 36.542588 23.390625 36.802305 23.374442 37.050781 23.351562 A 1.0001 1.0001 0 0 0 37.958984 22.355469 L 37.958984 17.685547 A 1.0001 1.0001 0 0 0 37.03125 16.6875 C 33.886609 16.461891 31.379838 14.012216 31.052734 10.896484 A 1.0001 1.0001 0 0 0 30.058594 10 L 26.042969 10 z M 27.041016 12 L 29.322266 12 C 30.049047 15.2987 32.626734 17.814404 35.958984 18.445312 L 35.958984 21.310547 C 33.820114 21.201935 31.941489 20.134948 30.835938 18.453125 A 1.0001 1.0001 0 0 0 29 19.003906 L 29 30.539062 C 29 34.707538 25.641273 38.066406 21.472656 38.066406 C 17.304181 38.066406 13.945312 34.707538 13.945312 30.539062 C 13.945312 26.538539 17.066083 23.363182 21 23.107422 L 21 25.283203 C 18.286416 25.535721 16.121094 27.762246 16.121094 30.539062 C 16.121094 33.483274 18.528445 35.892578 21.472656 35.892578 C 24.401892 35.892578 27 33.586491 27 30.59375 C 27 30.64267 27.001859 29.335571 27.005859 27.494141 C 27.009759 25.65271 27.016224 23.20692 27.021484 20.763672 C 27.030884 16.376775 27.039186 12.849206 27.041016 12 z" style="fill: var(--on-surface-variant)"/>
+                                            <g>
+                                            <defs>
+                                            <clipPath id="clip0_66_1649">
+                                            <rect width="24" height="24" fill="white"/>
+                                            </clipPath>
+                                            </defs>
+                                            </svg>
+                                            
+                                    </a> -->
+
+                                    <!-- <a href="#" class="social-item">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_66_1657)">
+                                              <mask id="mask0_66_1657" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0"
+                                                width="24" height="24">
+                                                <path d="M0 7.05719e-05H23.9999V24H0V7.05719e-05Z" fill="white" />
+                                              </mask>
+                                              <g mask="url(#mask0_66_1657)">
+                                                <path
+                                                  d="M23.062 12C23.0596 12.9866 23.0485 13.9731 23.035 14.9596C23.0187 16.1498 23.0003 17.3405 22.7018 18.5103C22.3888 19.7371 21.7715 20.795 20.811 21.5783C19.7989 22.4036 18.5755 22.8375 17.2552 22.9178C15.5039 23.0243 13.7519 23.0664 12 23.0622C10.248 23.0664 8.496 23.0243 6.7448 22.9178C5.42443 22.8375 4.20109 22.4036 3.18897 21.5783C2.2285 20.795 1.61116 19.7371 1.29813 18.5103C0.999629 17.3405 0.981255 16.1498 0.964989 14.9596C0.951489 13.9731 0.940285 12.9866 0.937988 12C0.940285 11.0135 0.951489 10.0269 0.964989 9.04045C0.981255 7.85025 0.999629 6.65954 1.29813 5.48973C1.61116 4.26301 2.2285 3.20505 3.18897 2.42182C4.20109 1.59644 5.42443 1.16262 6.7448 1.08232C8.496 0.97582 10.248 0.933726 12 0.937851C13.7519 0.933726 15.5039 0.97582 17.2552 1.08232C18.5755 1.16262 19.7989 1.59644 20.811 2.42182C21.7715 3.20505 22.3888 4.26301 22.7018 5.48973C23.0003 6.65954 23.0187 7.85025 23.035 9.04045C23.0485 10.0269 23.0596 11.0135 23.062 12Z"
+                                                  style="stroke: var(--on-surface-variant)" stroke-width="1.5" stroke-miterlimit="10" />
+                                                <path
+                                                  d="M16.875 12C16.875 14.7183 14.6714 16.9219 11.9531 16.9219C9.23484 16.9219 7.03125 14.7183 7.03125 12C7.03125 9.28174 9.23484 7.07815 11.9531 7.07815C14.6714 7.07815 16.875 9.28174 16.875 12Z"
+                                                  style="stroke: var(--on-surface-variant)" stroke-width="1.5" stroke-miterlimit="10" />
+                                                <path
+                                                  d="M19.875 5.67188C19.875 6.4485 19.2454 7.07812 18.4687 7.07812C17.6921 7.07812 17.0625 6.4485 17.0625 5.67188C17.0625 4.89526 17.6921 4.26563 18.4687 4.26563C19.2454 4.26563 19.875 4.89526 19.875 5.67188Z"
+                                                  style="fill: var(--on-surface-variant)" />
+                                              </g>
+                                            </g>
+                                            <defs>
+                                              <clipPath id="clip0_66_1657">
+                                                <rect width="24" height="24" fill="white" />
+                                              </clipPath>
+                                            </defs>
+                                          </svg>
+                                    </a> -->
+
+                                </div>
+
+                            </div>
+
+                            <div class="contact-form">
+                                
+                                <h3 class="title-large" style="text-align:center;">Colaboremos juntos</h3>
+                                
+                                <form action="enviar_email.php" method="post" class="input-wrapper">
+                                    
+                                    <input type="text" name="name" placeholder="Nombre*" required class="input-field">
+                                    
+                                    <input type="email" name="email" placeholder="Email*" required class="input-field">
+                                    
+                                    <input type="text" name="subject" placeholder="Asunto*" class="input-field">
+
+                                    <textarea name="message" placeholder="Mensaje*" required class="textarea"></textarea>
+
+                                    <button class="btn" type="submit" value="Enviar">
+                                        <span class="label-large">Enviar Mensaje</span>
+
+                                        <div class="state-layer"></div>
+                                    </button>
+
+                                </form>
+
+                            </div>
+
+                        </div>
+                    </section>
+
+
+                </div>
+
+            </div>
+
+        </article>
+    </main>
+
+
+
+    <!--
+        - #FOOTER
+    -->
+
+
+    <footer class="footer">
+        <div class="container">
+
+            <p class="body-medium">&copy; raresdproductions 2024</p>
+
+        </div>
+    </footer>
+
+    <!-- 
+        - custom js link
+    -->
+    <script src="./js/script.js"></script>
+    
+</body>
+</html>
