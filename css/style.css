@@ -369,11 +369,20 @@ body {
 
 :has(> .state-layer):hover .state-layer { opacity: 0.08; }
 
-.social-icons a{
-display:inline-block;
-/* padding:10px; */
-margin-left:20%
+.link-image:hover{
+  background-color: var(--state-layer-bg);
+  transition: var(--motion-duration-short-1) var(--motion-easing-linear);
+  opacity:0.75;
 }
+
+
+.social-icons { 
+  text-align:center
+}
+
+.social-icons a{
+  display:inline-block;
+  }
 
 .icon-project:hover, .icon-github:hover {
   opacity:0.75;
@@ -837,7 +846,6 @@ margin-left:20%
     position: sticky;
     top: 64px; 
   }
-
 
 
   .primary-tabs { z-index: 2; }
