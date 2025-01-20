@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portada Pagina Web</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+</style>
+<body>
+  <script>
+// JavaScript para hacer scroll automático
+window.onload = function() {
+    // Ajusta la velocidad de scroll modificando el valor de 'scrollSpeed'
+    var scrollSpeed = 5; // Valor en pixels por milisegundo
+    var scrollStep = 1; // Valor en pixels
+
+    function scrollHandler() {
+        window.scrollBy(0, scrollStep);
+        if (window.pageYOffset < document.body.scrollHeight - window.innerHeight) {
+            setTimeout(scrollHandler, scrollSpeed);
+        }
+    }
+
+    // Comienza el scroll automático al cargar la página
+    scrollHandler();
+};
+</script>
+    <header>
+        <img src="loogo.png" alt="">
+        <div class="text-container">
+            <div class="left-text">
+                @RARES
+            </div>
+            <div class="right-text">
+                DEAC
+            </div>
+        </div>
+    </header>
+</body>
+</html>
