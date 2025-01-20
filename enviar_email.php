@@ -13,7 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $contenido .= "Mensaje:\n$mensaje";
 
     // Envío del correo
-    mail($destinatario, $asunto, $contenido);
+    mail($destinatario, $asunto, utf8_decode($contenido));
 
 }
 ?>
